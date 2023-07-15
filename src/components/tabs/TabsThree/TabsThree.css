@@ -1,0 +1,11 @@
+.airlines-tabs-btn {
+  border: none;
+  background-color: #c5f4e2;
+  padding: 7px 30px;
+  cursor: pointer;
+}
+
+.airlines-tabs-para {
+  font-weight: 200 !important;
+  color: #8b8b8b;
+}

@@ -1,0 +1,23 @@
+.hide-details {
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: #333;
+  margin-top: 49px;
+  background-color: transparent;
+}
+
+.book-now-btn {
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: #31cf94;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 80px;
+  font-weight: 600;
+}

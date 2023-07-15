@@ -1,0 +1,170 @@
+.airlines-logo-area {
+  text-align: left;
+}
+
+.airlines-logo-area h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+}
+.airlines-logo-area span {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 0;
+  color: #31cf94;
+}
+.ari-logo {
+  max-width: 100%;
+  width: 50px;
+}
+
+/* progress */
+.airlines-logo-area .progress {
+  width: 100%;
+  height: 2px;
+  background-color: #a1a1a1;
+  display: block;
+  position: relative;
+}
+
+.airlines-logo-area .progress span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #a1a1a1;
+}
+
+.airlines-logo-area .progress span:first-child {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #a1a1a1;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+.airlines-logo-area .progress span:last-child {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #a1a1a1;
+  border-radius: 100%;
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+
+.airlines-logo-area .progress span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #31cf94;
+  border-radius: 100%;
+  position: absolute;
+  left: 35%;
+  top: -4px;
+}
+
+.airlines-logo-area .progress span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #31cf94;
+  border-radius: 100%;
+  position: absolute;
+  right: 35%;
+  top: -4px;
+}
+
+/* dac-time-area */
+/* refundable-area */
+.dac-time-area h4,
+.dac-time-area h5 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.dac-time-area p {
+  color: #a1a1a1;
+  font-size: 14px;
+}
+
+.dac-time-area h6 {
+  color: #31cf94;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.refundable-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.baggage-area span,
+.refundable-area span {
+  color: #31cf94;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.baggage-area {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.air-btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.air-btn {
+  width: 100%;
+  height: auto;
+  border: none;
+  display: block;
+  font-size: 65px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.air-btn-2 {
+  transform: rotate(-180deg);
+  margin-top: -55px;
+}
+
+/* Tabs area */
+.tabs-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tabs-single-box img {
+  max-width: 100%;
+  width: 35px;
+}
+
+.tabs-single-box h6 {
+  font-size: 13px;
+}
+
+.tabs-single-box p,
+.tabs-single-box span {
+  font-size: 12px;
+  font-weight: bold;
+}
