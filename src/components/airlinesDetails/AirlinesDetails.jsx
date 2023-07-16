@@ -218,28 +218,34 @@ const AirlinesDetails = ({ tabHidden }) => {
                 value={value}
                 onChange={handleChange}
                 aria-label="basic tabs example"
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  width: "100%",
+                }}
               >
                 <Tab
-                  sx={{ textTransform: "uppercase" }}
+                  sx={{ textTransform: "uppercase", color: "#333" }}
                   label="FlIGHT DETAILS"
                   disableRipple="false"
                   color="#31cf94"
                   {...a11yProps(0)}
                 />
                 <Tab
-                  sx={{ textTransform: "uppercase" }}
+                  sx={{ textTransform: "uppercase", color: "#333" }}
                   label="FARE SUMMERY"
                   disableRipple="false"
                   {...a11yProps(1)}
                 />
                 <Tab
-                  sx={{ textTransform: "uppercase" }}
+                  sx={{ textTransform: "uppercase", color: "#333" }}
                   label="fare policy"
                   disableRipple="false"
                   {...a11yProps(2)}
                 />
                 <Tab
-                  sx={{ textTransform: "uppercase" }}
+                  sx={{ textTransform: "uppercase", color: "#333" }}
                   label="Baggage"
                   disableRipple="false"
                   {...a11yProps(3)}
