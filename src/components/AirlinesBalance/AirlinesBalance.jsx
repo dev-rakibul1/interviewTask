@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import "./AirlinesBalance.css";
 
-const AirlinesBalance = ({ handleTabsHidden }) => {
+const AirlinesBalance = ({ handleTabsHidden, tabHidden }) => {
   return (
     <>
       <Box>
@@ -10,7 +10,7 @@ const AirlinesBalance = ({ handleTabsHidden }) => {
 
         <button className="book-now-btn">Booking now</button>
         <button className="hide-details" onClick={() => handleTabsHidden()}>
-          Hide Details
+          {tabHidden ? "Hide details" : "Flight details"}
         </button>
       </Box>
     </>

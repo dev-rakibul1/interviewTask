@@ -7,15 +7,17 @@
 
 .hidden-details-article h5 {
   font-weight: 600;
-  color: #333;
+  color: rgba(0, 0, 0, 0.6);
 }
 .hidden-details-article p {
   font-weight: 400 !important;
   font-size: 13px !important;
+  color: #818181;
 }
 .hidden-details-article span {
   font-weight: 100 !important;
   font-size: 15px;
+  color: #a1a1a1;
 }
 
 .swap-right {

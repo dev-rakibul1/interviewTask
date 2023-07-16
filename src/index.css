@@ -1,6 +1,9 @@
 html,
 body {
-  background-color: #ddd;
+  background-color: #fff;
+}
+#root {
+  background-color: #fff;
 }
 
 body {

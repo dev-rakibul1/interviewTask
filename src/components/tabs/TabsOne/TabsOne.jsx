@@ -144,7 +144,7 @@ const TabsOne = ({ clickNormalMode, clickFlightMode }) => {
                 boxShadow: "none",
                 height: "100%",
                 textAlign: "left",
-                display: { xs: "none", md: "none", lg: "block" },
+                // display: { xs: "none", md: "none", lg: "block" },
               }}
             >
               <Box className="swap-right">
@@ -296,7 +296,7 @@ const TabsOne = ({ clickNormalMode, clickFlightMode }) => {
                 boxShadow: "none",
                 height: "100%",
                 textAlign: "left",
-                display: { xs: "none", md: "none", lg: "block" },
+                // display: { xs: "none", md: "none", lg: "block" },
               }}
             >
               <Box className="swap-right">

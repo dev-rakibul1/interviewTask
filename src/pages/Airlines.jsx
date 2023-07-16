@@ -60,7 +60,10 @@ export default function Airlines() {
           }}
         >
           <Item sx={{ boxShadow: "none", height: "100%" }}>
-            <AirlinesBalance handleTabsHidden={handleTabsHidden} />
+            <AirlinesBalance
+              handleTabsHidden={handleTabsHidden}
+              tabHidden={tabHidden}
+            />
           </Item>
         </Grid>
       </Grid>
